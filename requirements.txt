@@ -1,0 +1,1 @@
+pillow matplotlib libtiff numpy scipy==1.1.0 pandas sympy glob2 glob3 opencv-python scikit-learn scikit-image keras tensorflow==1.15.2
