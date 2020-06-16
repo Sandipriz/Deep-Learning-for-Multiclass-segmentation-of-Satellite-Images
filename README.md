@@ -3,6 +3,9 @@
 # DESCRIPTION
 This project aims to process high resolution 4-band satellite images (.tif images) and classify various regions into 8 separate classes viz., Road, Tree, Bare Soil, Rail, Building, Field, Water and SwimmingPool. There are unclassified pixels present as well.
 
+The architecture used is a modification of the existing UNet model (We have clubbed UNet with a block of CloudNet).
+
+
 # DATASET
 Our training dataset consists of 13 .tif satellite images with their corresponding ground truths and similarly we have 1 .tif cross validation image.
 
